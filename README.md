@@ -7,6 +7,12 @@ Install DocPad:
 npm install -g docpad
 ```
 
+Get the node modules for this project:
+
+```
+npm install
+```
+
 To generate the documentation and run the DocPad server locally:
 
 ```
