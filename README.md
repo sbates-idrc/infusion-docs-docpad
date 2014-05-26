@@ -1,4 +1,14 @@
-# Your [DocPad](http://docpad.org) Project
+Infusion Documentation
+======================
 
-## License
-Copyright &copy; 2014+ All rights reserved.
+To generate the documentation and run the DocPad server locally:
+
+```
+docpad run
+```
+
+Point your browser to:
+
+```
+http://localhost:9778/
+```
