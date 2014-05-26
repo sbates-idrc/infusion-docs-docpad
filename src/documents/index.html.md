@@ -13,7 +13,7 @@ Infusion
 * Components
   * [Understanding Infusion Components (wiki)](http://wiki.fluidproject.org/display/docs/Understanding+Infusion+Components)
   * [Understanding Component Options And Their Defaults (wiki)](http://wiki.fluidproject.org/display/docs/Understanding+Component+Options+And+Their+Defaults)
-  * [Component Grades](ComponentGrades.md)
+  * [Component Grades](ComponentGrades.html)
   * [Options Merging (wiki)](http://wiki.fluidproject.org/display/docs/Options+Merging)
   * [Component Lifecycle](ComponentLifecycle.md)
 * Inversion of Control
