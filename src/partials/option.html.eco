@@ -1,8 +1,0 @@
-<h3><%- @title %></h3>
-
-<table>
-<tr>
-<th>Description</th>
-<td><%- @description %></td>
-</tr>
-</table>
