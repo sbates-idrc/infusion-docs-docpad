@@ -11,7 +11,7 @@
 </head>
 <body class="infusion-docs">
     <div class="row">
-<%- @content %>
+<%- @rewriteUrls(@content) %>
     </div>
 </body>
 </html>
