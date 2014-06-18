@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title><%= @document.title %> | Fluid Infusion</title>
+    <title>{{document.title}} | Fluid Infusion</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/highlightjs/default.css">
@@ -11,7 +11,7 @@
 </head>
 <body class="infusion-docs">
     <div class="row">
-<%- @rewriteUrls(@content) %>
+{{{rewriteUrls content}}}
     </div>
 </body>
 </html>
