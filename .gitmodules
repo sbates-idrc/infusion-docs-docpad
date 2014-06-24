@@ -1,0 +1,3 @@
+[submodule "infusion-docs"]
+	path = infusion-docs
+	url = https://github.com/fluid-project/infusion-docs.git

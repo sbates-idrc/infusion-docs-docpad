@@ -13,7 +13,13 @@ Get the node modules for this project:
 npm install
 ```
 
-To generate the documentation and run the DocPad server locally:
+Run Grunt:
+
+```
+grunt
+```
+
+To generate the HTML and run the DocPad server locally:
 
 ```
 docpad run
