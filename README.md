@@ -13,6 +13,13 @@ Get the node modules for this project:
 npm install
 ```
 
+Grab the infusion-docs:
+
+```
+git submodule init
+git submodule update
+```
+
 Run Grunt:
 
 ```
@@ -28,5 +35,5 @@ docpad run
 Point your browser to:
 
 ```
-http://localhost:9778/
+http://localhost:9778/README.html
 ```
