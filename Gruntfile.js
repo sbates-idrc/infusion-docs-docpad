@@ -65,7 +65,7 @@ var titles = {
     "tutorial-gettingStartedWithInfusion/ViewComponents.md": "View Components"
 };
 
-withDocPadMetadata = function(content, srcpath) {
+var withDocPadMetadata = function (content, srcpath) {
     var filename = srcpath.substring(pagesSrcDir.length + 1);
     var title = titles[filename];
     if (!title) {
@@ -74,7 +74,7 @@ withDocPadMetadata = function(content, srcpath) {
     return '---\ntitle: "' + title + '"\nlayout: "default"\n---\n' + content;
 }
 
-module.exports = function(grunt) {
+module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON("package.json"),
         clean: {
