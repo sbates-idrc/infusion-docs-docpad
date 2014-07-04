@@ -87,7 +87,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: pagesSrcDir,
-                    src: ["*.md", "tutorial-gettingStartedWithInfusion/*.md"],
+                    src: ["*.md", "tutorial-*/*.md"],
                     dest: pagesDestDir
                 }],
                 options: {
