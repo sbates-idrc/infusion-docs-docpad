@@ -7,10 +7,11 @@
     "npm": "1.3"
   },
   "dependencies": {
+    "URIjs": "^1.13.2",
     "docpad": "~6.66.0",
+    "docpad-plugin-handlebars": "~2.3.0",
     "docpad-plugin-highlightjs": "~2.2.1",
-    "docpad-plugin-marked": "~2.2.1",
-    "docpad-plugin-handlebars": "~2.3.0"
+    "docpad-plugin-marked": "~2.2.1"
   },
   "devDependencies": {
     "grunt": "~0.4.2",

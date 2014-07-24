@@ -29,7 +29,7 @@ grunt
 To generate the HTML and run the DocPad server locally:
 
 ```
-docpad run
+docpad run --env static
 ```
 
 Point your browser to:
