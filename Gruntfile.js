@@ -87,7 +87,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: pagesSrcDir,
-                    src: ["*.md", "tutorial-*/*.md"],
+                    src: ["*.md", "tutorial-*/*.md", "to-do/*.md"],
                     dest: pagesDestDir
                 }],
                 options: {
