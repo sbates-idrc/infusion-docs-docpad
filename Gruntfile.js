@@ -71,7 +71,7 @@ var withDocPadMetadata = function (content, srcpath) {
     if (!title) {
         title = "TODO TITLE"
     }
-    return '---\ntitle: "' + title + '"\nlayout: "default"\n---\n' + content;
+    return '---\ntitle: ' + title + '\nlayout: default\n---\n\n' + content;
 }
 
 module.exports = function (grunt) {
